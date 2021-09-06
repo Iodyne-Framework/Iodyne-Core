@@ -1,0 +1,23 @@
+{
+    "name": "iodyne/framework",
+    "description": "The Core IodyneFramework",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.19"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elhakimdev",
+            "email": "abdulelhakim68@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iodyne\\Framework\\Core\\Component\\":"src/Core",
+            "Iodyne\\Public\\Client\\":"public/Client"
+        }
+    },
+    "require": {}
+}
